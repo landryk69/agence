@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: georgia;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fb.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 100px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: aqua;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background: greenyellow;
+    color: black;
+    border-radius: 10px;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 100px;
+    font-family: fantasy;
+}
+
+.avion{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    border: 1px solid transparent;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    transition: 9ms;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background: rgb(18, 82, 18);
+    color: yellow;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px  skyblue;
+}
+.reseau{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    gap: 10px;
+    font-size: 40px;
+    display: flex;
+}
+.twitter:hover{
+    color: rgb(233, 111, 11);
+    text-shadow: 3px 3px 3px rgb(11, 25, 26);
+    border: double 2px yellow;
+    border-radius: 5px;
+    background: skyblue;
+}
+.facebook:hover{
+    color: rgb(233, 111, 11);
+    text-shadow: 3px 3px 3px rgb(11, 25, 26);
+    border: double 2px yellow;
+    border-radius: 5px;
+    background: skyblue;
+}
+.youtube:hover{
+    color: rgb(233, 111, 11);
+    text-shadow: 3px 3px 3px rgb(11, 25, 26);
+    border: double 2px yellow;
+    border-radius: 5px;
+    background: skyblue;
+}
+.whatsapp:hover{
+    color: rgb(233, 111, 11);
+    text-shadow: 3px 3px 3px rgb(11, 25, 26);
+    border: double 2px yellow;
+    border-radius: 5px;
+    background: skyblue;
+}
+.instagram:hover{
+    color: rgb(233, 111, 11);
+    text-shadow: 3px 3px 3px rgb(11, 25, 26);
+    border: double 2px yellow;
+    border-radius: 5px;
+    background: skyblue;
+}
+.gmail:hover{
+    color: rgb(233, 111, 11);
+    text-shadow: 3px 3px 3px rgb(11, 25, 26);
+    border: double 2px yellow;
+    border-radius: 5px;
+    background: skyblue;
+}
+
+
+
